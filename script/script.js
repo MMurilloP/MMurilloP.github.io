@@ -24,7 +24,7 @@ document.querySelector("form.formulario").addEventListener("submit", function (e
       }
 
       if (tlf < 8) {
-          alert("telefono muy corto");
+          alert("Introduce un telefono correcto");
           validated = false; 
       }
 
